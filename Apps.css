@@ -1,0 +1,42 @@
+.my-heading{
+  font-weight: 800 !important; 
+}
+.container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f8f9fa; /* Light background color */
+  border-radius: 5px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #dee2e6; /* Adds a separator line between rows */
+}
+
+.row:last-child {
+  border-bottom: none; /* Remove the bottom border for the last row */
+}
+
+.col-4, .col-2 {
+  padding: 5px;
+}
+
+button.btn {
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+button.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.btn-danger:hover {
+  background-color: #c82333;
+}
